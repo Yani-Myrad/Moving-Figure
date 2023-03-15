@@ -1,0 +1,52 @@
+Hi ,my name is Yani i am a 14 years old student from Bulgaria and this is my first ever project/game. 
+hope you like it :) 
+
+About the game:
+The point of the game is to get all the points that are on the screen and get high amount of score.
+
+
+How does the score works:
+It doesn't mater how many points you have on the screen.
+if you get all the points then you have 200 score
+and the amount of steps you made get devided by 3 and then subtract you score 
+
+------------------------------------------------------------------------------------
+This is the way i did it:
+Point5 = (5 * 5) * 4 = 100 * 2 = 200
+                                              
+Point6 = (6 * 6) * 4 = 144 * 1.388888888888889 = 200
+
+Point7 = (7 * 7) * 4 = 196 * 1.020408163265306 = 200
+
+Point8 = (8 * 8) * 4 = 256 / 1.28 = 200
+
+Point9 = (9 * 9) * 4 = 324 / 1.62 = 200
+
+Point10 = (10 * 10) * 4 = 400 / 2 = 200
+
+		    OR
+This is easier tho:
+Point5 = (5 * 5) * 8 = 200
+                                              
+Point6 = (6 * 6) * 5.555555555555556 = 200
+
+Point7 = (7 * 7) * 4.081632653061224 = 200
+
+Point8 = (8 * 8) * 3.125 = 200
+
+Point9 = (9 * 9) * 2.469135802469136 = 200
+
+Point10 = (10 * 10) * 2 = 200
+
+------------------------------------------------------------------------------------
+Then we subtract the score with the steps
+(steps / 3) - score
+------------------------------------------------------------------------------------
+And this is how time work
+1-10 sec = plus 10 score
+10-20 sec = plus 4 score
+20-30 sec = nothing
+30-40 sec = minuns 5 score
+40-50 sec = minuns 15 score
+50-60 sec = minuns 25 score
+60+ sec = minuns 50 score
